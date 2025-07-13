@@ -1,3 +1,4 @@
-source mltbenv/bin/activate
-python3 update.py
-python3 -m bot
+#!/bin/bash
+source venv/bin/activate
+python update.py
+python -m bot
